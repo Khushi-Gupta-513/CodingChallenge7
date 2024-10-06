@@ -48,7 +48,3 @@ class Manager extends Employee {
         return `${super.getDetails()}, Bonus: $${this.bonus}`;
     }
 }
-
-// Create departments
-const engineering = new Department("Engineering");
-const marketing = new Department("Marketing");
